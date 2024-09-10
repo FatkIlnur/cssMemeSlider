@@ -214,6 +214,19 @@ input {
     transition: .5s;
 }
 
+/* Media queries */
+
+@media screen and (max-width: 500px) {
+    .controls-container {
+        flex-direction: column-reverse;
+    }
+
+    .slider-controls {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
 
 
 

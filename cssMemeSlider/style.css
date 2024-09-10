@@ -113,7 +113,8 @@ input {
 #meme1:checked ~ .controls-container >.slider-controls > .slider-control1 > .control-circle,
 #meme2:checked ~ .controls-container >.slider-controls > .slider-control2 > .control-circle,
 #meme3:checked ~ .controls-container >.slider-controls > .slider-control3 > .control-circle,
-#meme4:checked ~ .controls-container >.slider-controls > .slider-control4 > .control-circle{
+#meme4:checked ~ .controls-container >.slider-controls > .slider-control4 > .control-circle {
+    border: 3px solid mediumblue;
     background-color: transparent;
     transition: .3s;
 }
@@ -129,12 +130,15 @@ input {
 
 .controls-container {
     display: flex;
-    justify-content: space-between;
 }
 
 .slider-controls {
     display: flex;
     gap: .5rem;
+}
+
+.slider-control {
+    padding: .3rem;
 }
 
 .slides-descriptions {

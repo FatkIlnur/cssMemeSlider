@@ -97,15 +97,43 @@ body {
 
 .slider-wrapper {
     margin: 5rem auto;
-    width: 70%;
-    background-color: red;
+    width: 20rem;
 }
 
 .slider {
-    max-width: 30%;
+    max-width: 100%;
+    /* overflow: hidden; */
+    margin-bottom: .5rem;
+}
+
+input {
+    display: none;
 }
 
 .slides {
     display: flex;
     max-width: 100%;
 }
+
+.slides img {
+    border-radius: 5%;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-controls {
+    display: flex;
+    gap: .5rem;
+}
+
+.control-circle {
+    display: block;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: cornflowerblue;
+}
+

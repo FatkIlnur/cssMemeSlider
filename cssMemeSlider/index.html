@@ -8,6 +8,10 @@
 </head>
 <body>
     <div class="slider-wrapper">
+        <input type="radio" name="slider" id="meme1">
+        <input type="radio" name="slider" id="meme2">
+        <input type="radio" name="slider" id="meme3">
+        <input type="radio" name="slider" id="meme4">
         <div class="slider">
             <div class="slides">
                 <img src="./assets/first-pic.png" alt="meme1">
@@ -16,12 +20,27 @@
                 <img src="./assets/fourth-pic.png" alt="meme4">
             </div>
         </div>
-        <div class="slides__description"></div>
-        <div class="slider-controls">
-            <label for="meme1" class="slider-control"></label>
-            <label for="meme2" class="slider-control"></label>
-            <label for="meme3" class="slider-control"></label>
-            <label for="meme4" class="slider-control"></label>
+        <div class="controls-container">
+            <div class="slides-descriptions">
+                <p class="description">How to clear brows history</p>
+                <p class="description">This is how it works</p>
+                <p class="description">Shelter task</p>
+                <p class="description">I fixed it</p>
+            </div>
+            <div class="slider-controls">
+                <label for="meme1" class="slider-control">
+                    <span class="control-circle"></span>
+                </label>
+                <label for="meme2" class="slider-control">
+                    <span class="control-circle"></span>
+                </label>
+                <label for="meme3" class="slider-control">
+                    <span class="control-circle"></span>
+                </label>
+                <label for="meme4" class="slider-control">
+                    <span class="control-circle"></span>
+                </label>
+            </div>
         </div>
     </div>
 </body>
